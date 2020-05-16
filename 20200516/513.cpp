@@ -56,7 +56,7 @@ public:
             }
             TreeNode* top=s.top();
             s.pop();
-            ans.push_back(top->val);
+            ans.push_back(top->val);//
             if(top->right)
                 cur=top->right;
         }  
